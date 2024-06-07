@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: warehouse-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+app:
+  port:
+    humiditySensor: 3355
+    temperatureSensor: 3344
